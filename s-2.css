@@ -1,0 +1,187 @@
+@charset "utf-8";
+/* CSS Document */ 
+body{
+	background-color:powderblue; 
+	margin:0px;
+	} 
+
+div{
+	margin-left:0px;
+	}
+	
+ul { 
+	background-color:green;
+	list-style-type:none; 
+	margin:0px; 
+	padding:0; 
+	width:100%;
+	overflow:hidden; 
+	position:fixed;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif; 
+	
+	} 
+	
+li{ 
+    border-right:1px solid #060;
+	display: inline-block; 
+	text-align:center; 
+	} 
+	
+i{
+	color:white; 
+	display:inline-block;
+	}	
+	
+li a{
+	padding: 10px 10px;
+	display:inline-block; 
+	width:70px; 
+	text-decoration:none; 
+	color:white; 
+	text-align:center;
+	} 
+	
+li a:hover, i:hover {
+	background-color:white; 
+	color:#000; 
+}
+	
+i.alignrt{ 
+	float:right; 
+	padding: 15px 5px 0 0 ; 
+	}
+	
+.header_img img{
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	width:100%;} 
+	
+#header_txt{
+	position:absolute; 
+	top:10%; 
+	left:70%;
+	color: #06C; }
+	
+.section-1 h3{ 
+	overflow:hidden;
+	text-align:center; 
+	color:#232323; 
+	text-decoration:underline;} 
+
+.section-1 p{
+	font-family:Tahoma, Geneva, sans-serif; 
+	font-weight:300;} 
+	
+#sec1_p {
+	text-align:center; } 
+		
+.section-2{
+	  overflow:hidden; 
+	  margin-top: 15px; 
+	  position : relative;
+	  } 
+	
+.sec2_parts{
+	width:26%; 
+	float:left; 
+	text-align:center;
+	padding:80px 40px;
+	} 
+	
+	
+.sec-2btn{
+	text-decoration:none;
+	text-align:center; 
+	display:inline-block; 
+	background-color:#3C0; 
+	padding: 10px 20px;
+	color:white;
+	border: 2px solid #4CAF50; 
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	}
+
+.sec-2btn:hover{
+	background-color:#FFF; 
+	color:#000;
+	} 
+	
+.section-3{ 
+	align:center;
+	float:left;
+	padding:30px; 
+	border-top:1px thin #333;
+	}
+ 
+.sec3_parts{
+	float:left;
+	width:20%; 
+	padding:50px 25px;
+	text-align:center;
+	} 
+	
+.sec3_parts img{
+	width:200px; 
+}
+	  
+.sec3_img{ 
+	border-radius: 5px;
+	display:inline-block;
+	}
+	
+.sec-3btn{
+	text-align:center;
+	text-decoration:none; 
+	background-color:#099;
+	color:#FFF; 
+	display:inline-block;
+	padding:8px 16px;
+	border:2px solid #39C; 
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	}
+	
+.sec-3btn:hover{
+	background-color:#FF9191;
+	color:#FFF;}
+	
+#footer{
+	/*border-top:2px solid;*/
+	overflow:hidden; 
+	width:100%;
+	height:350px;
+	background-color:#333;}
+	
+.foot_1{ 
+	width:35%; 
+	float:left;
+	margin-top:120px; 
+	font-size:20px; 
+	padding-left:80px;
+	color:white; 
+	}
+	
+.foot_2{
+	float:left; 
+	position:absolute;
+	color:white; 
+	font-size:20px;
+	margin-left:45%;
+	margin-top:80px;} 
+	
+.foot_logo{
+	padding: 10px; 
+	font-family:Arial, Helvetica, sans-serif; 
+	margin:15px;  }
+	
+.foot_links{
+	text-decoration:none;
+	padding:5px;
+	}
+	
+.copyright{
+	text-align:center;
+	font-size:15px;
+	font-family:"MS Serif", "New York", serif;
+	color:black;}
+	
+	
